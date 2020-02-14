@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/locona/action-github-release-qadoc/compare/v1.0.0...v1.0.1) (2020-02-14)
+
+
+### Bug Fixes
+
+* chmod +x ([9909fa0](https://github.com/locona/action-github-release-qadoc/commit/9909fa05d68bd9e32096e8024a50de0fc3618f56))
+
 ## 1.0.0 (2020-02-14)
 
 
