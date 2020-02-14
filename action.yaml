@@ -1,0 +1,23 @@
+name: 'Run github-release-qadoc'
+description: '🐶 Run github-release-qadoc on release to issuecomment.'
+author: 'locona (github-release-qadoc)'
+inputs:
+  github_token:
+    description: 'GITHUB_TOKEN.'
+    required: true
+  github_repository:
+    description: 'GITHUB_REPOSITORY.'
+    required: true
+  issue:
+    description: 'GitHub Issue Number'
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.github_token }}
+    - ${{ inputs.github_repository }}
+    - ${{ inputs.issue }}
+branding:
+  icon: 'edit'
+  color: 'gray-dark'
