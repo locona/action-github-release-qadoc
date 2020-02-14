@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/locona/action-github-release-qadoc/compare/v1.0.2...v1.0.3) (2020-02-14)
+
+
+### Bug Fixes
+
+* debug. ([4d20ef3](https://github.com/locona/action-github-release-qadoc/commit/4d20ef3c67df2ce1945f0a70bf5e9625e73e4772))
+
 ### [1.0.2](https://github.com/locona/action-github-release-qadoc/compare/v1.0.1...v1.0.2) (2020-02-14)
 
 
