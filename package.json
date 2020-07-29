@@ -7,11 +7,11 @@
     "example": "examples"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.6",
-    "@semantic-release/exec": "^3.3.8",
-    "@semantic-release/git": "^v7.1.0-beta.10",
+    "@semantic-release/changelog": "3.0.6",
+    "@semantic-release/exec": "3.3.8",
+    "@semantic-release/git": "7.1.0-beta.11",
     "cz-conventional-changelog": "3.0.2",
-    "semantic-release": "^v16.0.0-beta.46"
+    "semantic-release": "16.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
